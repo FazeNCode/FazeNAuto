@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import styles from '@/app/style';
+import styles from '@/app/style'; // Import styles
 import { FaFacebook, FaTwitter, FaInstagram, FaTiktok } from 'react-icons/fa'; // Import social icons
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className={`${styles.container} max-w-7xl mx-auto py-8 px-4`}>
         {/* Logo and Brand */}
         <div className={`${styles.footerBrand}`}>
-          <img src="/logo.png" alt="Company Logo" className={styles.logo} /> {/* Update with your logo path */}
+          <img src="/logo.png" alt="Company Logo" className={styles.logo} /> {/* Logo*/}
           <p className={styles.brandText}>
             &copy; {new Date().getFullYear()} FazeNauto. All rights reserved.
           </p>
@@ -39,7 +39,7 @@ const Footer = () => {
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
               <FaTwitter className={styles.icon} />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com" target="https://www.instagram.com/fazenauto/" rel="noopener noreferrer">
               <FaInstagram className={styles.icon} />
             </a>
             <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
