@@ -1,6 +1,11 @@
+
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Image from "next/image";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Navbar from '@/components/Navbar'; 
-import Footer from '@/components/Footer'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
